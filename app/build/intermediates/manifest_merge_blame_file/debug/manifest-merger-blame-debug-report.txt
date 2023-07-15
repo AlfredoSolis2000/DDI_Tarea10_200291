@@ -1,0 +1,229 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="mx.edu.utxj.tidgs.ddi.tarea_10_200561"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+8-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.type.watch" />
+11-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:4:5-64
+11-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:4:19-61
+12
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:5:5-68
+13-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:5:22-65
+14    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+14-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:6:5-94
+14-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:6:22-91
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:5:5-68
+15-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:5:22-65
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:8:5-67
+16-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:8:22-64
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:9:5-81
+17-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:9:22-78
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:10:5-79
+18-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:10:22-76
+19
+20    <queries>
+20-->[androidx.wear.tiles:tiles:1.1.0] C:\Users\PC-03\.gradle\caches\transforms-3\3237bb6f0f4833f7e8f7ebb1cefb6cb6\transformed\tiles-1.1.0\AndroidManifest.xml:7:5-11:15
+21        <intent>
+21-->[androidx.wear.tiles:tiles:1.1.0] C:\Users\PC-03\.gradle\caches\transforms-3\3237bb6f0f4833f7e8f7ebb1cefb6cb6\transformed\tiles-1.1.0\AndroidManifest.xml:8:9-10:18
+22            <action android:name="androidx.wear.tiles.action.BIND_UPDATE_REQUESTER" />
+22-->[androidx.wear.tiles:tiles:1.1.0] C:\Users\PC-03\.gradle\caches\transforms-3\3237bb6f0f4833f7e8f7ebb1cefb6cb6\transformed\tiles-1.1.0\AndroidManifest.xml:9:13-87
+22-->[androidx.wear.tiles:tiles:1.1.0] C:\Users\PC-03\.gradle\caches\transforms-3\3237bb6f0f4833f7e8f7ebb1cefb6cb6\transformed\tiles-1.1.0\AndroidManifest.xml:9:21-84
+23        </intent>
+24    </queries>
+25
+26    <application
+26-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:12:5-73:19
+27        android:allowBackup="true"
+27-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:16:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.8.0] C:\Users\PC-03\.gradle\caches\transforms-3\af4b7c5236c9ff872e815c327d77073f\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:icon="@mipmap/ic_launcher"
+31-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:17:9-43
+32        android:label="@string/app_name"
+32-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:18:9-41
+33        android:supportsRtl="true"
+33-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:19:9-35
+34        android:testOnly="true"
+35        android:theme="@android:style/Theme.DeviceDefault"
+35-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:20:9-59
+36        android:usesCleartextTraffic="true" >
+36-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:14:9-44
+37        <service
+37-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:21:9-36:19
+38            android:name="mx.edu.utxj.tidgs.ddi.tarea_10_200561.complication.MainComplicationService"
+38-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:22:13-65
+39            android:exported="true"
+39-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:23:13-36
+40            android:label="@string/complication_label"
+40-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:24:13-55
+41            android:permission="com.google.android.wearable.permission.BIND_COMPLICATION_PROVIDER" >
+41-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:25:13-99
+42            <intent-filter>
+42-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:26:13-28:29
+43                <action android:name="android.support.wearable.complications.ACTION_COMPLICATION_UPDATE_REQUEST" />
+43-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:27:17-116
+43-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:27:25-113
+44            </intent-filter>
+45
+46            <meta-data
+46-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:30:13-32:46
+47                android:name="android.support.wearable.complications.SUPPORTED_TYPES"
+47-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:31:17-86
+48                android:value="SHORT_TEXT" />
+48-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:32:17-43
+49            <meta-data
+49-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:33:13-35:37
+50                android:name="android.support.wearable.complications.UPDATE_PERIOD_SECONDS"
+50-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:34:17-92
+51                android:value="0" />
+51-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:35:17-34
+52        </service>
+53        <service
+53-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:37:9-49:19
+54            android:name="mx.edu.utxj.tidgs.ddi.tarea_10_200561.tile.MainTileService"
+54-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:38:13-49
+55            android:exported="true"
+55-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:39:13-36
+56            android:label="@string/tile_label"
+56-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:40:13-47
+57            android:permission="com.google.android.wearable.permission.BIND_TILE_PROVIDER" >
+57-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:41:13-91
+58            <intent-filter>
+58-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:42:13-44:29
+59                <action android:name="androidx.wear.tiles.action.BIND_TILE_PROVIDER" />
+59-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:43:17-88
+59-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:43:25-85
+60            </intent-filter>
+61
+62            <meta-data
+62-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:46:13-48:61
+63                android:name="androidx.wear.tiles.PREVIEW"
+63-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:47:17-59
+64                android:resource="@drawable/tile_preview" />
+64-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:48:17-58
+65        </service>
+66
+67        <uses-library
+67-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:51:9-53:39
+68            android:name="com.google.android.wearable"
+68-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:52:13-55
+69            android:required="true" />
+69-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:53:13-36
+70        <!--
+71               Set to true if your app is Standalone, that is, it does not require the handheld
+72               app to run.
+73        -->
+74        <meta-data
+74-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:58:9-60:36
+75            android:name="com.google.android.wearable.standalone"
+75-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:59:13-66
+76            android:value="true" />
+76-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:60:13-33
+77
+78        <activity
+78-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:62:9-72:20
+79            android:name="mx.edu.utxj.tidgs.ddi.tarea_10_200561.presentation.MainActivity"
+79-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:63:13-54
+80            android:exported="true"
+80-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:64:13-36
+81            android:label="@string/app_name"
+81-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:65:13-45
+82            android:theme="@android:style/Theme.DeviceDefault" >
+82-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:66:13-63
+83            <intent-filter>
+83-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:67:13-71:29
+84                <action android:name="android.intent.action.MAIN" />
+84-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:68:17-69
+84-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:68:25-66
+85
+86                <category android:name="android.intent.category.LAUNCHER" />
+86-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:70:17-77
+86-->E:\Elisama\DDI_Tarea10_200561\app\src\main\AndroidManifest.xml:70:27-74
+87            </intent-filter>
+88        </activity>
+89        <activity
+89-->[androidx.compose.ui:ui-tooling:1.3.0] C:\Users\PC-03\.gradle\caches\transforms-3\85f5647172acdcef0931197787051993\transformed\ui-tooling-1.3.0\AndroidManifest.xml:23:9-25:39
+90            android:name="androidx.compose.ui.tooling.PreviewActivity"
+90-->[androidx.compose.ui:ui-tooling:1.3.0] C:\Users\PC-03\.gradle\caches\transforms-3\85f5647172acdcef0931197787051993\transformed\ui-tooling-1.3.0\AndroidManifest.xml:24:13-71
+91            android:exported="true" />
+91-->[androidx.compose.ui:ui-tooling:1.3.0] C:\Users\PC-03\.gradle\caches\transforms-3\85f5647172acdcef0931197787051993\transformed\ui-tooling-1.3.0\AndroidManifest.xml:25:13-36
+92        <activity
+92-->[androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\PC-03\.gradle\caches\transforms-3\e880529cda3e2b7ac313a2e995c423a2\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:23:9-25:39
+93            android:name="androidx.activity.ComponentActivity"
+93-->[androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\PC-03\.gradle\caches\transforms-3\e880529cda3e2b7ac313a2e995c423a2\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:24:13-63
+94            android:exported="true" />
+94-->[androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\PC-03\.gradle\caches\transforms-3\e880529cda3e2b7ac313a2e995c423a2\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:25:13-36
+95        <activity
+95-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PC-03\.gradle\caches\transforms-3\54920da8981638670086ef863332dd56\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+96            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+96-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PC-03\.gradle\caches\transforms-3\54920da8981638670086ef863332dd56\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+97            android:exported="false"
+97-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PC-03\.gradle\caches\transforms-3\54920da8981638670086ef863332dd56\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+98-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PC-03\.gradle\caches\transforms-3\54920da8981638670086ef863332dd56\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+99
+100        <meta-data
+100-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\PC-03\.gradle\caches\transforms-3\ae3c720c3e59e800a5a7c5728f984afd\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+101            android:name="com.google.android.gms.version"
+101-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\PC-03\.gradle\caches\transforms-3\ae3c720c3e59e800a5a7c5728f984afd\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+102            android:value="@integer/google_play_services_version" />
+102-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\PC-03\.gradle\caches\transforms-3\ae3c720c3e59e800a5a7c5728f984afd\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+103
+104        <provider
+104-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\PC-03\.gradle\caches\transforms-3\7572e18afb254c8ec32732935a76264c\transformed\profileinstaller-1.2.0\AndroidManifest.xml:25:9-33:20
+105            android:name="androidx.startup.InitializationProvider"
+105-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\PC-03\.gradle\caches\transforms-3\7572e18afb254c8ec32732935a76264c\transformed\profileinstaller-1.2.0\AndroidManifest.xml:26:13-67
+106            android:authorities="mx.edu.utxj.tidgs.ddi.tarea_10_200561.androidx-startup"
+106-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\PC-03\.gradle\caches\transforms-3\7572e18afb254c8ec32732935a76264c\transformed\profileinstaller-1.2.0\AndroidManifest.xml:27:13-68
+107            android:exported="false" >
+107-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\PC-03\.gradle\caches\transforms-3\7572e18afb254c8ec32732935a76264c\transformed\profileinstaller-1.2.0\AndroidManifest.xml:28:13-37
+108            <meta-data
+108-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\PC-03\.gradle\caches\transforms-3\7572e18afb254c8ec32732935a76264c\transformed\profileinstaller-1.2.0\AndroidManifest.xml:30:13-32:52
+109                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+109-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\PC-03\.gradle\caches\transforms-3\7572e18afb254c8ec32732935a76264c\transformed\profileinstaller-1.2.0\AndroidManifest.xml:31:17-85
+110                android:value="androidx.startup" />
+110-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\PC-03\.gradle\caches\transforms-3\7572e18afb254c8ec32732935a76264c\transformed\profileinstaller-1.2.0\AndroidManifest.xml:32:17-49
+111        </provider>
+112
+113        <receiver
+113-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\PC-03\.gradle\caches\transforms-3\7572e18afb254c8ec32732935a76264c\transformed\profileinstaller-1.2.0\AndroidManifest.xml:35:9-47:20
+114            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+114-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\PC-03\.gradle\caches\transforms-3\7572e18afb254c8ec32732935a76264c\transformed\profileinstaller-1.2.0\AndroidManifest.xml:36:13-76
+115            android:directBootAware="false"
+115-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\PC-03\.gradle\caches\transforms-3\7572e18afb254c8ec32732935a76264c\transformed\profileinstaller-1.2.0\AndroidManifest.xml:37:13-44
+116            android:enabled="true"
+116-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\PC-03\.gradle\caches\transforms-3\7572e18afb254c8ec32732935a76264c\transformed\profileinstaller-1.2.0\AndroidManifest.xml:38:13-35
+117            android:exported="true"
+117-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\PC-03\.gradle\caches\transforms-3\7572e18afb254c8ec32732935a76264c\transformed\profileinstaller-1.2.0\AndroidManifest.xml:39:13-36
+118            android:permission="android.permission.DUMP" >
+118-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\PC-03\.gradle\caches\transforms-3\7572e18afb254c8ec32732935a76264c\transformed\profileinstaller-1.2.0\AndroidManifest.xml:40:13-57
+119            <intent-filter>
+119-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\PC-03\.gradle\caches\transforms-3\7572e18afb254c8ec32732935a76264c\transformed\profileinstaller-1.2.0\AndroidManifest.xml:41:13-43:29
+120                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+120-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\PC-03\.gradle\caches\transforms-3\7572e18afb254c8ec32732935a76264c\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:17-91
+120-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\PC-03\.gradle\caches\transforms-3\7572e18afb254c8ec32732935a76264c\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:25-88
+121            </intent-filter>
+122            <intent-filter>
+122-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\PC-03\.gradle\caches\transforms-3\7572e18afb254c8ec32732935a76264c\transformed\profileinstaller-1.2.0\AndroidManifest.xml:44:13-46:29
+123                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+123-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\PC-03\.gradle\caches\transforms-3\7572e18afb254c8ec32732935a76264c\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:17-85
+123-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\PC-03\.gradle\caches\transforms-3\7572e18afb254c8ec32732935a76264c\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:25-82
+124            </intent-filter>
+125        </receiver>
+126    </application>
+127
+128</manifest>
