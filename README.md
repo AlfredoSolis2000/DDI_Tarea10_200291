@@ -22,3 +22,16 @@
 | Nombre  | Tarea 10 Temperatura por medio del Api  |
 | Descripción  | La aplicación "Temperatura Clima" para Wear OS es una aplicación que muestra la temperatura actual en tiempo real utilizando un API de clima  |
 |  Fecha de Carga | 21/06/23  |
+
+&nbsp;
+&nbsp;
+
+&nbsp;
+&nbsp;
+
+<br>
+<br>
+<br>
+<br>
+
+[![Imagen1-2.jpg](https://i.postimg.cc/x1swjyVj/Imagen1-2.jpg)](https://postimg.cc/0zwWcSNh)
